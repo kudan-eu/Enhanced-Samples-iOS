@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nb1-Lu-Icc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="MCF-Jj-F9w">
+            <objects>
+                <viewController id="Nb1-Lu-Icc" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NWH-jw-3W2"/>
+                        <viewControllerLayoutGuide type="bottom" id="xgx-E8-Vlh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x6Y-Wa-M5k">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RtG-Uz-KYE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wib-Fi-XF9">
+                                <rect key="frame" x="233" y="527" width="135" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.33333333333333331" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="BbN-Rb-lQT"/>
+                                    <constraint firstAttribute="width" constant="135" id="vSR-Y5-4ez"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="progressButton:" destination="Nb1-Lu-Icc" eventType="touchUpInside" id="pLr-hN-oHd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wib-Fi-XF9" firstAttribute="centerX" secondItem="RtG-Uz-KYE" secondAttribute="centerX" id="2pP-n6-ICP"/>
+                            <constraint firstAttribute="bottom" secondItem="wib-Fi-XF9" secondAttribute="bottom" constant="20" symbolic="YES" id="AoY-Da-5el"/>
+                            <constraint firstItem="RtG-Uz-KYE" firstAttribute="leading" secondItem="x6Y-Wa-M5k" secondAttribute="leading" id="Hfy-Tw-V4Z"/>
+                            <constraint firstItem="RtG-Uz-KYE" firstAttribute="bottom" secondItem="xgx-E8-Vlh" secondAttribute="top" id="LKR-rC-sFv"/>
+                            <constraint firstItem="wib-Fi-XF9" firstAttribute="top" secondItem="NWH-jw-3W2" secondAttribute="bottom" constant="486" id="ikZ-qc-k0f"/>
+                            <constraint firstAttribute="trailing" secondItem="RtG-Uz-KYE" secondAttribute="trailing" id="xqF-TP-nD9"/>
+                            <constraint firstItem="RtG-Uz-KYE" firstAttribute="top" secondItem="x6Y-Wa-M5k" secondAttribute="top" id="zpb-s8-lGp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ikZ-qc-k0f"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Clg-hA-8Wk"/>
+                    <connections>
+                        <outlet property="mapView" destination="RtG-Uz-KYE" id="IOj-ng-Ta8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bjk-9f-INy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="916"/>
+        </scene>
+    </scenes>
+</document>
