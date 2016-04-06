@@ -58,7 +58,7 @@
     
     // Set up the model's material.
     ARLightMaterial *calibrationMaterial = [[ARLightMaterial alloc] init];
-    calibrationMaterial.colour = [ARVector3 vectorWithValuesX:1.0 y:1.0 z:1.0];
+    calibrationMaterial.colour.value = [ARVector3 vectorWithValuesX:1.0 y:1.0 z:1.0];
     
     for (ARMeshNode *meshNode in calibrationNode.meshNodes) {
         
@@ -107,9 +107,9 @@
     ARTexture *footballerTexture = [[ARTexture alloc] initWithUIImage:[UIImage imageNamed:@"footballer_tex.png"]];
     ARLightMaterial *footballerMaterial = [[ARLightMaterial alloc] init];
     
-    footballerMaterial.texture = footballerTexture;
-    footballerMaterial.diffuse = [ARVector3 vectorWithValuesX:1 y:1 z:1];
-    footballerMaterial.ambient = [ARVector3 vectorWithValuesX:0.5 y:0.5 z:0.5];
+    footballerMaterial.colour.texture = footballerTexture;
+    footballerMaterial.diffuse.value = [ARVector3 vectorWithValuesX:1 y:1 z:1];
+    footballerMaterial.ambient.value = [ARVector3 vectorWithValuesX:0.5 y:0.5 z:0.5];
     
     for(ARMeshNode *meshNode in footballerNode.meshNodes) {
         

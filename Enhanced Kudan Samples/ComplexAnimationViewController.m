@@ -42,9 +42,9 @@
     ARTexture *footballerTexture = [[ARTexture alloc] initWithUIImage:[UIImage imageNamed:@"footballer_tex.png"]];
     ARLightMaterial *footballerMaterial = [[ARLightMaterial alloc] init];
     
-    footballerMaterial.texture = footballerTexture;
-    footballerMaterial.diffuse = [ARVector3 vectorWithValuesX:1 y:1 z:1];
-    footballerMaterial.ambient = [ARVector3 vectorWithValuesX:0.5 y:0.5 z:0.5];
+    footballerMaterial.colour.texture = footballerTexture;
+    footballerMaterial.diffuse.value = [ARVector3 vectorWithValuesX:1 y:1 z:1];
+    footballerMaterial.ambient.value = [ARVector3 vectorWithValuesX:0.5 y:0.5 z:0.5];
     
     for(ARMeshNode *meshNode in footballerNode.meshNodes) {
         

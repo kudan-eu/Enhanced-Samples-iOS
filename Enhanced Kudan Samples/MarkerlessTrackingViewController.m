@@ -46,12 +46,12 @@ typedef NS_ENUM(NSInteger, ArbiTrackState) {
     
     // Set up and add material to model.
     ARLightMaterial *material = [ARLightMaterial new];
-    material.texture = [[ARTexture alloc] initWithUIImage:[UIImage imageNamed:@"bloodhound.png"]];
-    material.diffuse = [ARVector3 vectorWithValuesX:0.2 y:0.2 z:0.2];
-    material.ambient = [ARVector3 vectorWithValuesX:0.8 y:0.8 z:0.8];
-    material.specular = [ARVector3 vectorWithValuesX:0.3 y:0.3 z:0.3];
+    material.colour.texture = [[ARTexture alloc] initWithUIImage:[UIImage imageNamed:@"bloodhound.png"]];
+    material.diffuse.value = [ARVector3 vectorWithValuesX:0.2 y:0.2 z:0.2];
+    material.ambient.value = [ARVector3 vectorWithValuesX:0.8 y:0.8 z:0.8];
+    material.specular.value = [ARVector3 vectorWithValuesX:0.3 y:0.3 z:0.3];
     material.shininess = 20;
-    material.reflectivity = 0.15;
+    material.reflection.reflectivity = 0.15;
     
     for (ARMeshNode *meshNode in modelNode.meshNodes) {
         meshNode.material = material;
