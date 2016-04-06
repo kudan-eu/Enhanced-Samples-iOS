@@ -53,6 +53,7 @@
     
     // Modelled with y-axis up. Marker has z-axis up. Rotate around the x-axis to correct this.
     [footballerNode rotateByDegrees:90 axisX:1 y:0 z:0];
+    [footballerNode scaleByUniform:10];
     
     // Add the model to the image.
     [imageTrackable.world addChild:footballerNode];

@@ -48,6 +48,7 @@
     
     // Modelled with y-axis up. Marker has z-axis up. Rotate around the x-axis to correct this.
     [modelNode rotateByDegrees:90 axisX:1 y:0 z:0];
+    [modelNode scaleByUniform:10];
     
     // Add the model to a marker.
     [imageTrackable.world addChild:modelNode];

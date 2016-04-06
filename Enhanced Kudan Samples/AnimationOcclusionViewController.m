@@ -101,7 +101,7 @@
     
     // Modelled with y-axis up. Marker has z-axis up. Rotate around the x-axis to correct this.
     [footballerNode rotateByDegrees:90 axisX:1 y:0 z:0];
-    [footballerNode scaleByUniform:0.5];
+    [footballerNode scaleByUniform:8];
     
     // Set up and add the animated model's material.
     ARTexture *footballerTexture = [[ARTexture alloc] initWithUIImage:[UIImage imageNamed:@"footballer_tex.png"]];
