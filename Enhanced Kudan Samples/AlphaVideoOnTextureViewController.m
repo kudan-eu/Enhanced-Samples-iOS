@@ -46,11 +46,22 @@
     
     // Register for touch events.
     [videoNode addTouchTarget:self withAction:@selector(videoWasTouched:)];
+    
+    //Adds delegate method for trackable detected
+    [imageTrackable addTrackingEventTarget:self action:@selector(imageDetected:) forEvent:ARImageTrackableEventDetected];
 }
 
 - (void)videoWasTouched:(ARAlphaVideoNode *)alphaVideoNode
 {
     // Reset the video when touched.
+    [alphaVideoNode.videoTexture reset];
+    [alphaVideoNode.videoTexture play];
+}
+
+// Resets and plays alpha video on detection
+- (void)imageDetected:(ARImageTrackable *)trackable
+{
+    ARAlphaVideoNode *alphaVideoNode = [trackable.world.children objectAtIndex:0];
     [alphaVideoNode.videoTexture reset];
     [alphaVideoNode.videoTexture play];
 }
