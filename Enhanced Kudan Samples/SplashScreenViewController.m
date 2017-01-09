@@ -14,6 +14,7 @@
     
     self.markerImage.hidden = YES;
     self.okayButton.hidden = YES;
+    self.headerText.hidden = YES;
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter]
@@ -55,7 +56,7 @@
     if (![[NSUserDefaults standardUserDefaults] valueForKey:@"firstRunCompleted"]) {
         
         self.videoLayer.hidden = YES;
-        
+        self.headerText.hidden = NO;
         self.markerImage.hidden = NO;
         self.markerImage.layer.zPosition = -10;
         

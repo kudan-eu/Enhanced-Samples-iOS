@@ -7,5 +7,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *markerImage;
 
 @property (weak, nonatomic) IBOutlet UIButton *okayButton;
+@property (weak, nonatomic) IBOutlet UILabel *headerText;
 
 @end
