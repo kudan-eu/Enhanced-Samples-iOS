@@ -11,7 +11,6 @@
 		224B88891BDA85D600639009 /* cylinder.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 224B88881BDA85D600639009 /* cylinder.armodel */; };
 		227BD92A1BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 227BD9291BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 */; };
 		227E39331BD93F0A00BAF280 /* VideoOnTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E39321BD93F0A00BAF280 /* VideoOnTextureViewController.m */; };
-		22D983CD1BDE3CB700108915 /* space.marker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D983CC1BDE3CB700108915 /* space.marker.jpg */; };
 		22DA783C1BDF90560057D8C3 /* GPSExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA783B1BDF90560057D8C3 /* GPSExample.storyboard */; };
 		22DA78411BDF91C70057D8C3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA783E1BDF91C70057D8C3 /* MapViewController.m */; };
 		22DA78421BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA78401BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m */; };
@@ -41,8 +40,8 @@
 		22E806311BDE8F030037F264 /* bloodhound.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 22E806301BDE8F030037F264 /* bloodhound.armodel */; };
 		22E806331BDE908F0037F264 /* bloodhound.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E806321BDE908F0037F264 /* bloodhound.png */; };
 		22E806361BDE93750037F264 /* InstructionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E806351BDE93750037F264 /* InstructionLabel.m */; };
-		22E8063A1BDEA1B00037F264 /* spash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E806391BDEA1B00037F264 /* spash-screen.png */; };
 		22E9E0D11BEA344F00A84FEF /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9E0D01BEA344F00A84FEF /* KudanAR.framework */; };
+		E2D478981E23CA6400439ECF /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2D478971E23CA6400439ECF /* lego.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		227BD9291BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaboom_alpha_video.mp4; sourceTree = "<group>"; };
 		227E39311BD93F0A00BAF280 /* VideoOnTextureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoOnTextureViewController.h; sourceTree = "<group>"; };
 		227E39321BD93F0A00BAF280 /* VideoOnTextureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoOnTextureViewController.m; sourceTree = "<group>"; };
-		22D983CC1BDE3CB700108915 /* space.marker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = space.marker.jpg; path = ../space.marker.jpg; sourceTree = "<group>"; };
 		22DA783B1BDF90560057D8C3 /* GPSExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSExample.storyboard; sourceTree = "<group>"; };
 		22DA783D1BDF91C70057D8C3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		22DA783E1BDF91C70057D8C3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
@@ -95,8 +93,8 @@
 		22E806321BDE908F0037F264 /* bloodhound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bloodhound.png; sourceTree = "<group>"; };
 		22E806341BDE93750037F264 /* InstructionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionLabel.h; sourceTree = "<group>"; };
 		22E806351BDE93750037F264 /* InstructionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionLabel.m; sourceTree = "<group>"; };
-		22E806391BDEA1B00037F264 /* spash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spash-screen.png"; sourceTree = "<group>"; };
 		22E9E0D01BEA344F00A84FEF /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KudanAR.framework; path = ../KudanAR.framework; sourceTree = "<group>"; };
+		E2D478971E23CA6400439ECF /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lego.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +184,6 @@
 				22E68A801BE12E9800C112DB /* Splash Screen */,
 				22E68A811BE12EBC00C112DB /* Title Screen */,
 				22E68A821BE12EFE00C112DB /* Shared Resources */,
-				22D983CC1BDE3CB700108915 /* space.marker.jpg */,
 				22DB2FDE1BD8F81A00296E27 /* AppDelegate.h */,
 				22DB2FDF1BD8F81A00296E27 /* AppDelegate.m */,
 				22DB2FE41BD8F81A00296E27 /* Main.storyboard */,
@@ -254,7 +251,6 @@
 		22E68A801BE12E9800C112DB /* Splash Screen */ = {
 			isa = PBXGroup;
 			children = (
-				22E806391BDEA1B00037F264 /* spash-screen.png */,
 				22E68A831BE130D300C112DB /* splash_screen_video.mp4 */,
 				22E68A7A1BE1202200C112DB /* SplashScreenViewController.h */,
 				22E68A7B1BE1202200C112DB /* SplashScreenViewController.m */,
@@ -275,6 +271,7 @@
 		22E68A821BE12EFE00C112DB /* Shared Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E2D478971E23CA6400439ECF /* lego.jpg */,
 				22E806341BDE93750037F264 /* InstructionLabel.h */,
 				22E806351BDE93750037F264 /* InstructionLabel.m */,
 			);
@@ -340,10 +337,10 @@
 			files = (
 				224B88891BDA85D600639009 /* cylinder.armodel in Resources */,
 				227BD92A1BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 in Resources */,
-				22E8063A1BDEA1B00037F264 /* spash-screen.png in Resources */,
 				22E363BE1BDA80EA00069297 /* jog_in_circle.armodel in Resources */,
 				22E806311BDE8F030037F264 /* bloodhound.armodel in Resources */,
 				22DA78501BDFEDFF0057D8C3 /* target.png in Resources */,
+				E2D478981E23CA6400439ECF /* lego.jpg in Resources */,
 				22E68A841BE130D300C112DB /* splash_screen_video.mp4 in Resources */,
 				22DA784A1BDFE5D60057D8C3 /* ben.armodel in Resources */,
 				22DB2FEB1BD8F81A00296E27 /* LaunchScreen.storyboard in Resources */,
@@ -357,7 +354,6 @@
 				22DD669A1BDA8E5D00A00D79 /* plane.armodel in Resources */,
 				22DB2FE61BD8F81A00296E27 /* Main.storyboard in Resources */,
 				22DD83A51BDA53DE005566F0 /* footballer_tex.png in Resources */,
-				22D983CD1BDE3CB700108915 /* space.marker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

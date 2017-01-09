@@ -16,7 +16,7 @@
     [trackerManager initialise];
     
     // Create a trackable from a bundled file. Give it a unique name which we can use to locate it later.
-    ARImageTrackable *imageTrackable = [[ARImageTrackable alloc] initWithImage:[UIImage imageNamed:@"space.marker.jpg"] name:@"spaceMarker"];
+    ARImageTrackable *imageTrackable = [[ARImageTrackable alloc] initWithImage:[UIImage imageNamed:@"lego.jpg"] name:@"lego"];
     
     // Add this new trackable to the tracker.
     [trackerManager addTrackable:imageTrackable];
@@ -26,7 +26,7 @@
 {
     // The marker we'll be adding to.
     ARImageTrackerManager *trackerManager = [ARImageTrackerManager getInstance];
-    ARImageTrackable *imageTrackable = [trackerManager findTrackableByName:@"spaceMarker"];
+    ARImageTrackable *imageTrackable = [trackerManager findTrackableByName:@"lego"];
     
     // Create a video node associated with a video file.
     ARAlphaVideoNode *videoNode = [[ARAlphaVideoNode alloc] initWithBundledFile:@"kaboom_alpha_video.mp4"];
