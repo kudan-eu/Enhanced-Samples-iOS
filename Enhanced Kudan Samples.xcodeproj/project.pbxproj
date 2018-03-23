@@ -11,11 +11,6 @@
 		224B88891BDA85D600639009 /* cylinder.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 224B88881BDA85D600639009 /* cylinder.armodel */; };
 		227BD92A1BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 227BD9291BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 */; };
 		227E39331BD93F0A00BAF280 /* VideoOnTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 227E39321BD93F0A00BAF280 /* VideoOnTextureViewController.m */; };
-		22DA783C1BDF90560057D8C3 /* GPSExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA783B1BDF90560057D8C3 /* GPSExample.storyboard */; };
-		22DA78411BDF91C70057D8C3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA783E1BDF91C70057D8C3 /* MapViewController.m */; };
-		22DA78421BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA78401BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m */; };
-		22DA78461BDFC5180057D8C3 /* Big_Ben_diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DA78451BDFC5180057D8C3 /* Big_Ben_diffuse.png */; };
-		22DA784A1BDFE5D60057D8C3 /* ben.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 22DA78491BDFE5D60057D8C3 /* ben.armodel */; };
 		22DA784E1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA784D1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m */; };
 		22DA78501BDFEDFF0057D8C3 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DA784F1BDFEDFF0057D8C3 /* target.png */; };
 		22DB2FDD1BD8F81A00296E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB2FDC1BD8F81A00296E27 /* main.m */; };
@@ -50,13 +45,6 @@
 		227BD9291BE8E0A2002ECCC8 /* kaboom_alpha_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaboom_alpha_video.mp4; sourceTree = "<group>"; };
 		227E39311BD93F0A00BAF280 /* VideoOnTextureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoOnTextureViewController.h; sourceTree = "<group>"; };
 		227E39321BD93F0A00BAF280 /* VideoOnTextureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoOnTextureViewController.m; sourceTree = "<group>"; };
-		22DA783B1BDF90560057D8C3 /* GPSExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPSExample.storyboard; sourceTree = "<group>"; };
-		22DA783D1BDF91C70057D8C3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		22DA783E1BDF91C70057D8C3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		22DA783F1BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDModelWithGPSViewController.h; sourceTree = "<group>"; };
-		22DA78401BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDModelWithGPSViewController.m; sourceTree = "<group>"; };
-		22DA78451BDFC5180057D8C3 /* Big_Ben_diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Big_Ben_diffuse.png; sourceTree = "<group>"; };
-		22DA78491BDFE5D60057D8C3 /* ben.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = ben.armodel; sourceTree = "<group>"; };
 		22DA784C1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerlessTrackingViewController.h; sourceTree = "<group>"; };
 		22DA784D1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerlessTrackingViewController.m; sourceTree = "<group>"; };
 		22DA784F1BDFEDFF0057D8C3 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
@@ -130,20 +118,6 @@
 			name = "Complex Animations Example";
 			sourceTree = "<group>";
 		};
-		22DA784B1BDFE9960057D8C3 /* 3D Model With GPS Example */ = {
-			isa = PBXGroup;
-			children = (
-				22DA78491BDFE5D60057D8C3 /* ben.armodel */,
-				22DA78451BDFC5180057D8C3 /* Big_Ben_diffuse.png */,
-				22DA783B1BDF90560057D8C3 /* GPSExample.storyboard */,
-				22DA783D1BDF91C70057D8C3 /* MapViewController.h */,
-				22DA783E1BDF91C70057D8C3 /* MapViewController.m */,
-				22DA783F1BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.h */,
-				22DA78401BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m */,
-			);
-			name = "3D Model With GPS Example";
-			sourceTree = "<group>";
-		};
 		22DA78511BDFF0900057D8C3 /* Markerless Tracking Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +154,6 @@
 				22DA78511BDFF0900057D8C3 /* Markerless Tracking Example */,
 				2206971D1BDA91A900EE2425 /* Complex Animations Example */,
 				22DD83AC1BDA5EF6005566F0 /* Animation and Occlusion Example */,
-				22DA784B1BDFE9960057D8C3 /* 3D Model With GPS Example */,
 				22E68A801BE12E9800C112DB /* Splash Screen */,
 				22E68A811BE12EBC00C112DB /* Title Screen */,
 				22E68A821BE12EFE00C112DB /* Shared Resources */,
@@ -342,15 +315,12 @@
 				22DA78501BDFEDFF0057D8C3 /* target.png in Resources */,
 				E2D478981E23CA6400439ECF /* lego.jpg in Resources */,
 				22E68A841BE130D300C112DB /* splash_screen_video.mp4 in Resources */,
-				22DA784A1BDFE5D60057D8C3 /* ben.armodel in Resources */,
 				22DB2FEB1BD8F81A00296E27 /* LaunchScreen.storyboard in Resources */,
 				22E806331BDE908F0037F264 /* bloodhound.png in Resources */,
 				22DB2FE81BD8F81A00296E27 /* Assets.xcassets in Resources */,
 				2206971C1BDA908400EE2425 /* samba_dancing.armodel in Resources */,
 				22E6C0171BF4A74B00CBDC3A /* star_wars_trailer.mp4 in Resources */,
 				22DB2FF31BD8FE8200296E27 /* header.png in Resources */,
-				22DA783C1BDF90560057D8C3 /* GPSExample.storyboard in Resources */,
-				22DA78461BDFC5180057D8C3 /* Big_Ben_diffuse.png in Resources */,
 				22DD669A1BDA8E5D00A00D79 /* plane.armodel in Resources */,
 				22DB2FE61BD8F81A00296E27 /* Main.storyboard in Resources */,
 				22DD83A51BDA53DE005566F0 /* footballer_tex.png in Resources */,
@@ -367,14 +337,12 @@
 				22DB2FE31BD8F81A00296E27 /* TitleViewController.m in Sources */,
 				22E68A7C1BE1202200C112DB /* SplashScreenViewController.m in Sources */,
 				22DB2FE01BD8F81A00296E27 /* AppDelegate.m in Sources */,
-				22DA78411BDF91C70057D8C3 /* MapViewController.m in Sources */,
 				22DB2FDD1BD8F81A00296E27 /* main.m in Sources */,
 				22E806361BDE93750037F264 /* InstructionLabel.m in Sources */,
 				227E39331BD93F0A00BAF280 /* VideoOnTextureViewController.m in Sources */,
 				22E363BA1BDA7DD200069297 /* ComplexAnimationViewController.m in Sources */,
 				22DA784E1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m in Sources */,
 				22DD669D1BDA8EFD00A00D79 /* TextureMorphingViewController.m in Sources */,
-				22DA78421BDF91C70057D8C3 /* ThreeDModelWithGPSViewController.m in Sources */,
 				22DD83AF1BDA5F37005566F0 /* ThreeDModelOnMarkerViewController.m in Sources */,
 				22E363B41BDA763D00069297 /* AlphaVideoOnTextureViewController.m in Sources */,
 				22DB2FF81BD90A1C00296E27 /* AnimationOcclusionViewController.m in Sources */,
